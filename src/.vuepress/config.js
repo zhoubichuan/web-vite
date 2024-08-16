@@ -1,10 +1,10 @@
 const path = require("path");
 module.exports = {
   title: 'electron学习笔记',
-  description: 'electron相关知识点',
-  base: '/web-electron/', // 部署站点的基础路径
+  description: 'vite相关知识点',
+  base: '/web-vite/', // 部署站点的基础路径
   port: 3010,
-  dest: 'web-electron', // 指定 vuepress 的输出目录
+  dest: 'web-vite', // 指定 vuepress 的输出目录
   markdown: {
     lineNumbers: true // 代码块显示行号
   },
@@ -40,7 +40,7 @@ module.exports = {
   },
   // 主题配置
   themeConfig: {
-    repo: 'https://github.com/zhoubichuan/web-electron', // 源码地址
+    repo: 'https://github.com/zhoubichuan/web-vite', // 源码地址
     repoLabel: '查看源码', // (查看源码的)组件名称
     docsBranch: 'master', // git 源仓库 仓库分支
     editLinks: true, // 编辑链接
