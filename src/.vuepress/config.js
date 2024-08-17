@@ -1,6 +1,6 @@
 const path = require("path");
 module.exports = {
-  title: 'electron学习笔记',
+  title: 'vite学习笔记',
   description: 'vite相关知识点',
   base: '/web-vite/', // 部署站点的基础路径
   port: 3010,
